@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,13 +23,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         if(v!!.id == R.id.button1) {
-            //code to go here
+            val tv:TextView = findViewById(R.id.textView1)
+            tv.text = "Button 1 Clicked"
         }
         if(v!!.id == R.id.button2) {
-            //code to go here
+            val tv:TextView = findViewById(R.id.textView2)
+            tv.text = "Button 2 Clicked"
         }
         if(v!!.id == R.id.button3) {
-            //code to go here
+            val tv:TextView = findViewById(R.id.textView3)
+            tv.text = "Button 3 Clicked"
         }
     }
 }
