@@ -25,7 +25,9 @@
             android:layout_alignParentStart="true"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="10dp"
-            android:text="Button1" />
+            android:text="Button1"
+            android:onClick="button1Clicked"
+            />
 
         <TextView
             android:id="@+id/textView1"
@@ -58,7 +60,9 @@
             android:layout_alignParentStart="true"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="10dp"
-            android:text="Button2" />
+            android:text="Button2"
+            android:onClick="button2Clicked"
+            />
 
         <TextView
             android:id="@+id/textView2"
@@ -91,7 +95,9 @@
             android:layout_alignParentStart="true"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="10dp"
-            android:text="Button3" />
+            android:text="Button3"
+            android:onClick="button3Clicked"
+            />
 
         <TextView
             android:id="@+id/textView3"
