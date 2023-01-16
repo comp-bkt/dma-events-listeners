@@ -24,17 +24,20 @@ class MainActivity : AppCompatActivity() {
         /*All these are the same - button 1 and 3 are Lamda expressions for the View.OnClickListener*/
 
         button1.setOnClickListener{
-
+            val tv:TextView = findViewById(R.id.textView1)
+            tv.text = "Button 1 Clicked"
         }
 
         button2.setOnClickListener(object: View.OnClickListener {
             override fun onClick(view: View) {
-
+                val tv:TextView = findViewById(R.id.textView2)
+                tv.text = "Button 2 Clicked"
             }
         })
 
         button3.setOnClickListener{
-
+            val tv:TextView = findViewById(R.id.textView3)
+            tv.text = "Button 3 Clicked"
         }
 
     }
