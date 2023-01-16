@@ -4,19 +4,23 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
     private val mButtonListener = View.OnClickListener {
         /*use 'it' for the View object*/
         if(it.id==R.id.button1) {
-
+            val tv:TextView = findViewById(R.id.textView1)
+            tv.text = "Button 1 Clicked"
         }
         if(it.id==R.id.button2) {
-
+            val tv:TextView = findViewById(R.id.textView2)
+            tv.text = "Button 2 Clicked"
         }
         if(it.id==R.id.button3) {
-
+            val tv:TextView = findViewById(R.id.textView3)
+            tv.text = "Button 3 Clicked"
         }
     }
 
