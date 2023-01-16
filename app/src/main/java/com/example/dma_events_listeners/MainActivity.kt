@@ -21,12 +21,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun button1Clicked(view: View) {
-
+        textView1.text = "Button 1 Clicked"
     }
     fun button2Clicked(view: View) {
-
+        textView2.text = "Button 2 Clicked"
     }
     fun button3Clicked(view: View) {
-
+        textView3.text = "Button 3 Clicked"
     }
 }
